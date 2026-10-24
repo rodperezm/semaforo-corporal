@@ -1,5 +1,5 @@
 // Funciona sin conexión: guarda la app y sus librerías en caché
-const CACHE = "semaforo-v1";
+const CACHE = "metricbody-v2";
 const ASSETS = ["./","index.html","manifest.webmanifest","apple-touch-icon.png","icon-192.png","icon-512.png",
   "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting())); });

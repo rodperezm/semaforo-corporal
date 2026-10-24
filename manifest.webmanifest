@@ -1,13 +1,13 @@
 {
-  "name": "Semáforo Corporal",
-  "short_name": "Semáforo",
+  "name": "MetricBody",
+  "short_name": "MetricBody",
   "description": "Peso, IMC, medidas y % de grasa con semáforo",
   "lang": "es",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#F0EEE9",
-  "theme_color": "#7A2E3B",
+  "background_color": "#1C1416",
+  "theme_color": "#5C1E2C",
   "icons": [
     {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
     {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"},
